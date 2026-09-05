@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — SemiRobotics Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" style="text-decoration:none">
+      <span class="nav-logo-name"><span>Semi</span>Robotics</span>
+      <span class="nav-logo-sub">Consulting Pte Ltd</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="technology.html">Technology</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="wrap">
+    <p class="page-eyebrow">Services</p>
+    <h1 class="page-title">Core Technical Capabilities</h1>
+    <p class="page-sub">All services are delivered by engineers with direct hands-on experience in the relevant systems, working within the technical and procedural standards applicable to semiconductor cleanroom environments.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+
+    <!-- SERVICE 1 -->
+    <div class="svc-block">
+      <div class="svc-img"><img src="images/cal.png" alt="Robot Calibration"></div>
+      <div class="svc-content">
+        <p class="svc-num">SERVICE 01</p>
+        <h2 class="svc-name">Robot Calibration</h2>
+        <p class="svc-tag">What It Is</p>
+        <p class="svc-p">Calibration of a vacuum transfer robot is the process of establishing and verifying the precise positional and parametric configuration of the robot system within its process tool environment. This includes arm geometry, station teach positions, speed and acceleration profiles, and end-effector orientation — all referenced to the specific process chamber, loadlock, or cassette station being served.</p>
+        <p class="svc-tag">What It Involves</p>
+        <p class="svc-p">Calibration is performed using appropriate reference wafers, metrology tools, and software utilities, following OEM-defined procedures where available. Parameters addressed include reach and extension accuracy, Z-height and planarity at each station, rotational alignment, wafer placement repeatability, and sensor threshold verification.</p>
+        <p class="svc-tag">When It Is Required</p>
+        <p class="svc-p">Routine calibration is required following any mechanical intervention on the robot or process tool, after end-effector replacement, following tool relocation, or as part of scheduled preventive maintenance. Calibration may also be required when out-of-spec placement events or wafer drop incidents are observed.</p>
+      </div>
+    </div>
+
+    <!-- SERVICE 2 -->
+    <div class="svc-block flip">
+      <div class="svc-img"><img src="images/cal.png" alt="Alignment"></div>
+      <div class="svc-content">
+        <p class="svc-num">SERVICE 02</p>
+        <h2 class="svc-name">Alignment</h2>
+        <p class="svc-tag">What It Is</p>
+        <p class="svc-p">Alignment refers to the geometric and mechanical setup of the robot system relative to its surrounding process tool infrastructure — including chamber port alignment, blade and wrist angular orientation, and end-effector-to-wafer centre calibration. Alignment is a prerequisite for accurate calibration and must be verified or re-established after any mechanical disturbance.</p>
+        <p class="svc-tag">What It Involves</p>
+        <p class="svc-p">Services include assessment of blade flatness and wrist perpendicularity, wafer centre-finding calibration, chamber slit valve and port-centre alignment, and verification of Z-axis orthogonality. All alignment work is performed with reference to applicable OEM documentation and cleanroom handling standards.</p>
+        <p class="svc-tag">When It Is Required</p>
+        <p class="svc-p">Alignment is required after robot removal and reinstallation, following any mechanical repair affecting the kinematic chain, after tool levelling or repositioning, or when placement errors cannot be resolved through software calibration alone.</p>
+      </div>
+    </div>
+
+    <!-- SERVICE 3 -->
+    <div class="svc-block">
+      <div class="svc-img"><img src="images/diag.png" alt="Troubleshooting and Diagnostics"></div>
+      <div class="svc-content">
+        <p class="svc-num">SERVICE 03</p>
+        <h2 class="svc-name">Troubleshooting &amp; Diagnostics</h2>
+        <p class="svc-tag">What It Is</p>
+        <p class="svc-p">Troubleshooting is the systematic identification and isolation of the root cause of a robot system fault or performance anomaly. This encompasses mechanical failures, electromechanical faults, encoder and sensor issues, controller and firmware anomalies, and process environment-induced degradation.</p>
+        <p class="svc-tag">What It Involves</p>
+        <p class="svc-p">We apply a structured diagnostic methodology: symptom characterisation, system data review (error logs, motion traces, alarm histories), physical inspection, subsystem isolation, and hypothesis testing. Common fault categories addressed include wafer placement errors, robot motion faults, atmospheric and vacuum bearing degradation, end-effector damage, servo drive faults, and sensor drift or failure.</p>
+        <p class="svc-tag">When It Is Required</p>
+        <p class="svc-p">Troubleshooting is initiated in response to robot faults, alarms, or unexpected behaviour — including wafer drop events, repeatability degradation, intermittent faults, and hard failures that prevent robot operation.</p>
+      </div>
+    </div>
+
+    <!-- SERVICE 4 -->
+    <div class="svc-block flip">
+      <div class="svc-img"><img src="images/consult.png" alt="Technical Consulting"></div>
+      <div class="svc-content">
+        <p class="svc-num">SERVICE 04</p>
+        <h2 class="svc-name">Technical Consulting</h2>
+        <p class="svc-tag">What It Is</p>
+        <p class="svc-p">Technical consulting covers engineering advisory services that extend beyond direct field intervention — including system integration review, performance benchmarking, technical documentation assessment, specification development, and expert input on robot system procurement, maintenance programme design, or failure analysis.</p>
+        <p class="svc-tag">For OEMs</p>
+        <p class="svc-p">SemiRobotics Consulting can support OEM engineering and service teams with field-level expertise in deployed robot systems, bridging the gap between product engineering and in-fab operational realities.</p>
+        <p class="svc-tag">For End Users</p>
+        <p class="svc-p">End-user fabs benefit from independent technical expertise that complements OEM field support — particularly for aging equipment, multi-vendor environments, or situations requiring objective technical assessment.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <p class="footer-name">SemiRobotics Consulting Pte Ltd</p>
+      <p class="footer-tagline">Moving Wafers. Moving Industries.</p>
+      <p class="footer-copy">&copy; 2025 SemiRobotics Consulting Pte Ltd. All rights reserved. Singapore.</p>
+    </div>
+    <div class="footer-right">
+      <p><a href="mailto:info@semirobotics.org">info@semirobotics.org</a></p>
+      <p>Singapore</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
