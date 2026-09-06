@@ -60,7 +60,7 @@ hr.rule { border: none; border-top: 1px solid var(--border); }
 .cap-card img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
 .cap-body { padding: 28px; }
 .cap-title { font-family: var(--head); font-size: 17px; font-weight: 600; margin-bottom: 12px; }
-.cap-text { font-size: 14px; color: var(--muted); line-height: 1.75; }
+.cap-text { font-size: 14px; color: var(--muted); line-height: 1.75; text-align: justify; }
 
 /* DIFFERENTIATORS */
 .diff { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 80px 0; }
